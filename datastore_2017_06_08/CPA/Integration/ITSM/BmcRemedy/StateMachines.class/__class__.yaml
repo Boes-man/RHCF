@@ -1,0 +1,133 @@
+---
+object_type: class
+version: 1.0
+object:
+  attributes:
+    description: 
+    display_name: 
+    name: StateMachines
+    type: 
+    inherits: 
+    visibility: 
+    owner: 
+  schema:
+  - field:
+      aetype: attribute
+      name: server
+      display_name: 
+      datatype: string
+      priority: 1
+      owner: 
+      default_value: hkgc3msnapp0010.nwow001.corp.ete.cathaypacific.com
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: port
+      display_name: 
+      datatype: integer
+      priority: 2
+      owner: 
+      default_value: '8443'
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: user
+      display_name: 
+      datatype: string
+      priority: 3
+      owner: 
+      default_value: svc.cfadmin
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: password
+      display_name: 
+      datatype: password
+      priority: 4
+      owner: 
+      default_value: v2:{+mJ24MZ4EMmeKbyV+OW8CQ==}
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: state
+      name: step1
+      display_name: 
+      datatype: string
+      priority: 5
+      owner: 
+      default_value: 
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: login
+      on_exit: ''
+      on_error: logout
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: state
+      name: step2
+      display_name: 
+      datatype: string
+      priority: 6
+      owner: 
+      default_value: 
+      substitute: true
+      message: create
+      visibility: 
+      collect: ''
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: logout
+      on_error: logout
+      max_retries: 
+      max_time: 

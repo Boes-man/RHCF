@@ -1,0 +1,153 @@
+---
+object_type: class
+version: 1.0
+object:
+  attributes:
+    description: 
+    display_name: 
+    name: Methods
+    type: 
+    inherits: 
+    visibility: 
+    owner: 
+  schema:
+  - field:
+      aetype: attribute
+      name: ldap_host
+      display_name: 
+      datatype: string
+      priority: 1
+      owner: 
+      default_value: nwow001.corp.ete.cathaypacific.com
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: ldap_port
+      display_name: 
+      datatype: string
+      priority: 2
+      owner: 
+      default_value: '389'
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: ldap_domain
+      display_name: 
+      datatype: string
+      priority: 3
+      owner: 
+      default_value: nwow001.corp.ete.cathaypacific.com
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: ldap_base
+      display_name: 
+      datatype: string
+      priority: 4
+      owner: 
+      default_value: OU=Users,OU=CX,DC=nwow001,DC=corp,DC=ete,DC=cathaypacific,DC=com
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: ldap_svcuser
+      display_name: 
+      datatype: string
+      priority: 5
+      owner: 
+      default_value: svc_cfadminnp
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: ldap_pass
+      display_name: 
+      datatype: password
+      priority: 6
+      owner: 
+      default_value: v2:{jmJKFnXcwYexDlSdzkU4jw==}
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: method
+      name: execute
+      display_name: 
+      datatype: string
+      priority: 7
+      owner: 
+      default_value: 
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 

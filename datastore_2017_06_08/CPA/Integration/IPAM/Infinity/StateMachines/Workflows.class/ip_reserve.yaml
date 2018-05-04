@@ -1,0 +1,22 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: 
+    name: ip_reserve
+    inherits: 
+    description: 
+  fields:
+  - check_request_type:
+      value: "'${/#miq_provision.miq_provision_request.source_type}' == 'ServiceTemplate'"
+  - vm_network_site:
+      value: IMC3
+  - vm_network_env:
+      value: Non-Prod
+  - vm_network_zone:
+      value: Green
+  - step1:
+      on_entry: NetworkQuery
+  - step2:
+      on_entry: IpReserve

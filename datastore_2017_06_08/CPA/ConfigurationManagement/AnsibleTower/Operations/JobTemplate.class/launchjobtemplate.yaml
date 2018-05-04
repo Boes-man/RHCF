@@ -1,0 +1,14 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: 
+    name: LaunchJobTemplate
+    inherits: 
+    description: 
+  fields:
+  - job_template_name:
+      value: "${/#miq_provision.get_option(:job_template_name)}"
+  - Launch:
+      value: "/ConfigurationManagement/AnsibleTower/Operations/StateMachines/Job/Default"

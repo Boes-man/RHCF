@@ -1,0 +1,12 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: 
+    name: ChangeQueryByLocation
+    inherits: 
+    description: 
+  fields:
+  - step1:
+      value: method::change_query_by_location
