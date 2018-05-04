@@ -1,6 +1,6 @@
 #
-# Creates an AWS EC2 volume and attaches to EC2 instance
-# RHEl and Windows
+# Creates an AWS EC2 volume and attaches to EC2 instance.
+# Uses CF Amazon Cloud provider authentication. 
 # Class requires proxy details.
 # Comma separated list of disk sizes.
 # TODO: disk_device assumes no disks have previously been added to
